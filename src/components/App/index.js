@@ -19,7 +19,7 @@ class App extends Component {
       ],
       about: {
         image: "images/fritosALL.jpg",
-        text: "Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient."
+        text: "We love Fritos, I guess who doesn't. Communists maybe. We are making the definative guide to what to eat with what flavor."
       },
       recipies: [
         {
@@ -29,8 +29,8 @@ class App extends Component {
           main_image: "/images/mainLobsterOrig.jpg",
           teaser_image:"/images/teaserLobsterOrig.jpg",
           type: "Original",
-          rating: 5,
-          teaser_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient.",
+          rating: 3,
+          teaser_text:"Lobster Rolls are weird,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient.",
           main_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient."
         },
         {
@@ -52,7 +52,8 @@ class App extends Component {
           teaser_image:"/images/teaserTaterChilli.jpg",
           type: "Chilli Cheese",
           rating: 5,
-          teaser_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient."
+          teaser_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient.",
+          main_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient."
         },
         {
           title: "French Onion Dip & Classic Ranch",
@@ -61,8 +62,9 @@ class App extends Component {
           main_image: "/images/mainOnionRanch.jpg",
           teaser_image:"/images/teaserOnionRanch.jpg",
           type: "Classic Ranch",
-          rating: 5,
-          teaser_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient."
+          rating: 4,
+          teaser_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient.",
+          main_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient."
         },
         {
           title: "Guacamole & Spicy Jalapeño",
@@ -71,8 +73,9 @@ class App extends Component {
           main_image: "images/mainGuacJalap.jpg",
           teaser_image:"images/teaserGuacJalap.jpg",
           type: "Spicy Jalapeño",
-          rating: 5,
-          teaser_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient."
+          rating: 4,
+          teaser_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient.",
+          main_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient."
         }
       ]
     };

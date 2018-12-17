@@ -17,7 +17,7 @@ class Header extends Component {
             <li><a href="twitter.com">Twitter</a></li>
           </ul>
         </div>
-        <div className="footer__copyright">©{(new Date().getFullYear())} EatingGood</div>;
+        <div className="footer__copyright">©{(new Date().getFullYear())} EatingGood</div>
       </div>
       </>
     );
