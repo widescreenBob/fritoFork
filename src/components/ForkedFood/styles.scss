@@ -1,0 +1,23 @@
+.forked__container {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+
+  @media only screen and (min-width: 1020px) {
+    padding: 4rem 0;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+.forked__stars {
+  margin-bottom: 2rem;
+}

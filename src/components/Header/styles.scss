@@ -1,0 +1,36 @@
+.header__container {
+  background: black;
+  height: auto;
+  color: White;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+
+  @media only screen and (min-width: 1020px) {
+    height: 100px;
+    margin-top: 48px;
+    padding: 0;
+  }
+}
+
+.header__container-inner {
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (min-width: 1020px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+}
+
+.header__motto {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+}

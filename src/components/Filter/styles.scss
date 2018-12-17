@@ -1,0 +1,74 @@
+.filter__container {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+  border-bottom: 8px solid #25a9e0;
+
+  button {
+    background: black;
+    position: relative;
+    color: white;
+    border: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0;
+    transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+    &::before,
+    &::after {
+      position: absolute;
+      opacity: 1;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    &::before {
+      content: url('./leftend.svg');
+      width: 13px;
+      left: -17px;
+    }
+
+    &:after {
+      content: url('./rightend.svg');
+      width: 41px;
+      right: -42px;
+      top: -2px;
+    }
+
+    &:hover {
+      color: #eb008b;
+
+      &:before,
+      &:after {
+        opacity: 0;
+      }
+    }
+  }
+}
+
+.filter__container-inner {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  @media only screen and (min-width: 1020px) {
+    padding: 0;
+  }
+}
+
+.filter__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 75%;
+  padding: 0;
+  margin-left: 1rem;
+
+  @media only screen and (min-width: 1020px) {
+    flex-direction: row;
+  }
+}
+
+.filter__list-item {
+  margin: 0 4.5rem 1rem 0;
+}
