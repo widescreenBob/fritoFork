@@ -8,9 +8,9 @@ class thumbnail extends Component {
     return(
       <>
         <div className="thumbnail__container">
-          {this.props.recipies.filter(recipie => recipie.type == this.props.current_type || this.props.current_type == 'All').map((recipie, index) => (
+          {this.props.recipies.filter(recipie => recipie.type === this.props.current_type || this.props.current_type === 'All').map((recipie, index) => (
             <>
-              <Link to={`forked-food/${recipie.link}`}>
+              <Link to={`forked-food/${recipie.link}`} key={index}>
                 <div className="thumbnail__item" >
                   <img src={recipie.teaser_image} alt={recipie.title}/>
                   <div class="thumbnail__header-cont">

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './styles.scss';
 import Logo from '../ForkLogo';
-import { Router, Link } from "@reach/router";
+import { Link } from "@reach/router";
 
 class Header extends Component {
   render() {

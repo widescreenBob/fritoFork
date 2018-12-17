@@ -8,9 +8,9 @@ class ForkedFood extends Component {
     const location= window.location.pathname.split("/").pop();
     return(
       <>
-        {this.props.recipies.filter(recipie => recipie.link == location).map((recipie) => (
+        {this.props.recipies.filter(recipie => recipie.link === location).map((recipie, index) => (
           <>
-            <div class="forked__container">
+            <div key={index} className="forked__container">
               <div className="forked__img-contain">
                 <img src={recipie.main_image} alt={recipie.title}/>
               </div>

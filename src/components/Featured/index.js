@@ -11,7 +11,7 @@ class Featured extends Component {
           {this.props.recipies.filter(recipie => recipie.featured).map((recipie, index) => (
             <>
               <Link to={`forked-food/${recipie.link}`}>
-                <div className="featured__container">
+                <div key={index} className="featured__container">
                   <div className="featured__inner-left">
                   <div className="featured__img-container">
                     <img src={recipie.main_image} alt={recipie.title}/>

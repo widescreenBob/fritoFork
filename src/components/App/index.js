@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { render } from "react-dom";
-import { Router, Link } from "@reach/router";
+import { Router} from "@reach/router";
 import About from '../About';
 import Header from '../Header';
 import Home from '../Home';
@@ -70,8 +69,8 @@ class App extends Component {
           title: "Guacamole & Spicy Jalapeño",
           link:"guacandjalap",
           featured: false,
-          main_image: "images/mainGuacJalap.jpg",
-          teaser_image:"images/teaserGuacJalap.jpg",
+          main_image: "/images/mainGuacJalap.jpg",
+          teaser_image:"/images/teaserGuacJalap.jpg",
           type: "Spicy Jalapeño",
           rating: 4,
           teaser_text:"Nihil hic munitissimus hab,endi senatus locus, nihil horum? Morbi fringilla convallis sapien, id pulvinar odio volutpat. Ambitioni dedisse scripsisse iudicaretur. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Salutantibus vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Me non paenitet nullum festiviorem excogitasse ad hoc. Contra legem facit qui id facit quod lex prohibet. Quae vero auctorem tractata ab fiducia dicuntur. Cum sociis natoque penatibus et magnis dis parturient.",

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './styles.scss';
 import Logo from '../ForkLogo';
-import { Router, Link } from "@reach/router";
+import { Link } from "@reach/router";
 
 class Header extends Component {
   render() {
@@ -12,7 +12,7 @@ class Header extends Component {
           <div className="footer__logo">
           <Link to="/"><Logo /></Link>{" "}
           </div>
-          <ul class="footer__contact">
+          <ul className="footer__contact">
             <li><Link to="about">About</Link>{" "}</li>
             <li><a href="twitter.com">Twitter</a></li>
           </ul>
